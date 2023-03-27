@@ -49,6 +49,15 @@
             </li>
           </ul>
         </address>
+        <button
+          class="burger-menu js-open-menu"
+          type="button"
+          aria-label="button for open mobile menu"
+        >
+          <svg class="icon-menu" width="32" height="32">
+            <use href="./images/icons.svg#icon-mobile-menu"></use>
+          </svg>
+        </button>
       </div>
     </header>
 
@@ -271,7 +280,7 @@
     </main>
 
     <footer class="footer-primary">
-      <div class="container flex">
+      <div class="container flex fgg">
         <div>
           <a href="./index.html" class="logo footer">
             <span class="logo-web">Web</span>Studio</a
@@ -334,7 +343,109 @@
             </li>
           </ul>
         </div>
+        <div class="footer-subscribe">
+          <p>Subscribe</p>
+          <form class="footer-subscribe-block">
+            <input class="footer-input" type="email" placeholder="E-mail" />
+            <button class="button primary footer-button" type="submit">
+              <div class="flex-button">
+                Subscribe<svg class="airplane-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-airplane"></use>
+                </svg>
+              </div>
+            </button>
+          </form>
+        </div>
       </div>
     </footer>
+    <div class="mobile-modal-menu js-menu-container">
+      <button
+        class="modal-buttom js-close-menu"
+        type="button"
+        aria-label="button for close mobile menu"
+      >
+        <svg width="8" height="8">
+          <use class="modal-close" href="./images/icons.svg#icon-close"></use>
+        </svg>
+      </button>
+      <ul>
+        <li class="mobile-nav-link"><a href="./index.html">Studio</a></li>
+        <li class="mobile-nav-link">
+          <a href="./portfolio.html">Portfolio</a>
+        </li>
+        <li class="mobile-nav-link"><a href="">Contacts</a></li>
+      </ul>
+      <ul>
+        <li class="mobile-addres-link">
+          <a href="tel:+110001111111" class="mobile-menu-tel"
+            >+11 (000) 111-11-11</a
+          >
+        </li>
+        <li class="mobile-addres-link">
+          <a href="mailto:info@devstudio.com" class="mobile-menu-secondary-text"
+            >info@devstudio.com</a
+          >
+        </li>
+        <li>
+          <ul class="team-list flex">
+            <li class="team-links-item">
+              <a
+                href=""
+                class="team-links"
+                aria-label="link for instagram"
+                rel="noopener noreferrer"
+                target="_blank"
+                ><svg class="team-link-icon" width="16" height="16">
+                  <use href="./images/icons.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="team-links-item">
+              <a
+                href=""
+                class="team-links"
+                aria-label="link for twitter"
+                rel="noopener noreferrer"
+                target="_blank"
+                ><svg class="team-link-icon" width="16" height="16">
+                  <use href="./images/icons.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="team-links-item">
+              <a
+                href=""
+                class="team-links"
+                aria-label="link for facebook"
+                rel="noopener noreferrer"
+                target="_blank"
+                ><svg class="team-link-icon" width="16" height="16">
+                  <use href="./images/icons.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="team-links-item">
+              <a
+                href=""
+                class="team-links"
+                aria-label="link for linkedin"
+                rel="noopener noreferrer"
+                target="_blank"
+                ><svg class="team-link-icon" width="16" height="16">
+                  <use href="./images/icons.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+    <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+      integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+      crossorigin="anonymous"
+    ></script>
+    <script defer src="./js/mobile-menu.js"></script>
   </body>
 </html>
