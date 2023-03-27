@@ -255,6 +255,7 @@ transition: color 250ms var(--cubic);
     transform: translateX(0);
     opacity: 1;
     visibility: visible;
+    pointer-events: initial;
 }
 
 
