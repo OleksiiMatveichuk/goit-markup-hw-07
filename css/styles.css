@@ -945,6 +945,13 @@ transition: color 250ms var(--cubic);
         display: none;
     }
 
+    .feature {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.11;
+        text-align: center;
+    }
+
     .work-primary {
         display: none;
     }
@@ -1166,6 +1173,12 @@ transition: color 250ms var(--cubic);
     .footer-primary .container {
             max-width: 584px;
         }
+
+    .feature {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.11;
+    }
     
     .feature-flex-list {
             display: flex;
