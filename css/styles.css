@@ -112,6 +112,8 @@ body.overflow {
 
 .main-header{
     border-bottom: 1px solid #E7E9FC;
+    min-height: 70px;
+    
 }
 
 .header-flex{
@@ -938,7 +940,10 @@ transition: color 250ms var(--cubic);
         padding-bottom: 96px;
     }
 
-    
+    .main-header {
+        padding-top: 26px;
+        padding-bottom: 26px;
+    }
     
     .site-nav,
     .address-primary {
@@ -990,11 +995,6 @@ transition: color 250ms var(--cubic);
             padding-left: 16px;
             padding-right: 16px;
         } */
-
-    section {
-            padding-top: 96px;
-            padding-bottom: 96px;
-        }
 
     .mobile-modal-menu {
         display: none;
@@ -1174,6 +1174,11 @@ transition: color 250ms var(--cubic);
             max-width: 584px;
         }
 
+    section {
+        padding-top: 96px;
+        padding-bottom: 96px;
+    }
+
     .feature {
         font-weight: 700;
         font-size: 36px;
@@ -1189,6 +1194,10 @@ transition: color 250ms var(--cubic);
     .feature-card {
             flex-basis: calc((100% - 24px) / 2);
         }
+
+    .feature-card:not(:last-child) {
+        margin-bottom: 0;
+    }
 
     .work-primary {
         display: none;
