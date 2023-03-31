@@ -722,7 +722,7 @@ transition: color 250ms var(--cubic);
     position: absolute;
     top: 24px;
     right: 24px;
-    transition: background-color 250ms var(--cubic), color 2500ms var(--cubic);
+    transition: background-color 250ms var(--cubic), color 250ms var(--cubic);
 }
 
 .modal-buttom:hover,
